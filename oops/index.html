@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ULBP HUB</title>
+    
+    <!-- Фавикон -->
+    <link rel="icon" type="image/png" href="public/ULBP.png">
+
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            /* Растягиваем фон на весь экран */
+            background: url('public/BG.png') no-repeat center center fixed;
+            background-size: cover;
+            
+            /* Центрируем содержимое */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .oops-image {
+            /* Устанавливаем размер картинки в 50% от ширины экрана */
+            width: 50%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="public/Oops.png" alt="Oops" class="oops-image">
+
+</body>
+</html>
